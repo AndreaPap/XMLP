@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Texts>
+  <Typography id="default" font="Arial" size="24" alignment="center" />
+  <Typography id="title" font="ArialBold" size="32" alignment="left" />
+  
+  <TextGroup id="Screen1">
+    <Text id="T_Welcome">
+      <Translation language="English">Welcome to TouchGFX!</Translation>
+      <Translation language="Italian">Benvenuto in TouchGFX!</Translation>
+    </Text>
+    <Text id="T_ButtonLabel">
+      <Translation language="English">Click Me</Translation>
+      <Translation language="Italian">Clicca Qui</Translation>
+    </Text>
+  </TextGroup>
+</Texts>
