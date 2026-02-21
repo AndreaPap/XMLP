@@ -12,5 +12,6 @@
       <Translation language="English">Click Me</Translation>
       <Translation language="Italian">Clicca Qui</Translation>
     </Text>
+    <Text id="Prova_inline" />
   </TextGroup>
 </Texts>

@@ -8,16 +8,11 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-typedef struct 
-{
-	char* BufferPointer;
-	uint32_t BufferSize;
-} XMLStateType;
+char* StateLoad( char* XMLPathInput );
+char* StateKill( char* State );
 
-XMLStateType StateLoad( char* XMLPathInput );
-XMLStateType StateKill( XMLStateType State );
-
-char** OutputFilter( XMLStateType State, char* TagInput );					// funzione che dallo stato e dal tipo di tag cercato trova tutte le proprietà e contenuti
+char* OutputFilter( char* State, char* TagInput );					// funzione che dallo stato e dal tipo di tag cercato trova tutte le proprietà e contenuti
 
 void main();
